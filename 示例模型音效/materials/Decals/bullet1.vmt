@@ -1,0 +1,19 @@
+LightmappedGeneric
+{
+   $decal 1
+   $translucent 1
+   $decalscale 0.03
+   $basetexture Decals/bullet1
+}
+
+/*
+DecalModulate
+{
+   $decal 1
+   $translucent 1
+   $decalscale 0.03
+   $envmap env_cubemap
+   $decalDynamicScale 1
+   $basetexture Decals/bullet1
+}
+*/

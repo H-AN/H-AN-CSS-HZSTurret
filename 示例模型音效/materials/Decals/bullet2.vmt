@@ -1,0 +1,7 @@
+DecalModulate
+{
+   $decal 1
+   $translucent 1
+   $decalscale 0.03 
+   $basetexture Decals/bullet2
+}

@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "effects/tracers/tracer_light_midle2"
+	"$additive" 1
+	"$nocull" 1
+	"$translucent" 1
+"Proxies" 
+	{
+	 "TextureScroll"
+	{
+	"texturescrollvar" "$basetexturetransform"
+	"texturescrollrate" 5.0
+	"texturescrollangle" 180
+	} 
+	}
+}

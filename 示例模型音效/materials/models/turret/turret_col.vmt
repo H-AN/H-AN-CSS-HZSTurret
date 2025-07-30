@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	
+	"$basetexture" "models\turret\turret"
+	"$bumpmap"     "models\turret\turret_nrm"
+        "$normalmapalphaenvmapmask" "1"
+}
