@@ -168,6 +168,11 @@ float ClampFloat(float value, float min, float max)
     return value;
 }
 
+public void OnClientDisconnect(int client)
+{
+    iTurret[client] = 0;
+}
+
 
 
 
