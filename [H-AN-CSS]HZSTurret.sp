@@ -102,12 +102,10 @@ public Action Timer_ActivateSentry(Handle hTimer, any entityRef)
 
 public Action Timer_SentryThink(Handle hTimer, any entityRef)
 {
-    if (entityRef == INVALID_ENT_REFERENCE)
-        return Plugin_Handled;
-
     int iEntity = EntRefToEntIndex(entityRef);
-    if (!IsValidEntity(iEntity) || GetEntProp(iEntity, Prop_Data, "m_iHealth") <= 0)
-        return Plugin_Handled;
+
+    if (iEntity == INVALID_ENT_REFERENCE || !IsValidEntity(iEntity) || GetEntProp(iEntity, Prop_Data, "m_iHealth") <= 0)
+        return Plugin_Stop;
 
     int attacker = GetEntPropEnt(iEntity, Prop_Send, "m_hOwnerEntity");
 
